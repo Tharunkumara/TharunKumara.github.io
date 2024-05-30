@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharun Kumar Panneer Selvam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #00796B;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .container {
+            width: 85%;
+            margin: 2rem auto;
+            overflow: hidden;
+        }
+        .section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .section:hover {
+            transform: translateY(-10px);
+        }
+        .section h2 {
+            border-bottom: 2px solid #00796B;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .section p, .section ul {
+            margin: 0 0 1rem 0;
+            line-height: 1.6;
+        }
+        .job, .education-item {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            background: #00796B;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        a {
+            color: #00796B;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .animated-background {
+            background: linear-gradient(-45deg, #00796B, #00897B, #009688, #00A99D);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .skills-section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill-card {
+            flex: 1 1 calc(33.333% - 1rem);
+            margin: 0.5rem;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .skills-section {
+                flex-direction: column;
+            }
+            .skill-card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="animated-background">
+        <div class="container">
+            <h1>Tharun Kumar Panneer Selvam</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I am Tharun Kumar Panneer Selvam, a skilled Business Analyst with a strong background in data analysis, business intelligence, and process improvement. My experience spans various roles in telecommunications, e-commerce, and technical support, where I have consistently delivered impactful solutions and enhanced operational efficiency.</p>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Smart Circle – Rogers Telecommunication, Toronto, CA</h3>
+                <p><em>Business Analyst Intern, Sept 2023 – Dec 2023</em></p>
+                <ul>
+                    <li>Developed scheduled reports and interactive dashboards using DOMO for tracking business KPIs.</li>
+                    <li>Designed BI reporting pipelines capturing key performance indicators and monthly revenue.</li>
+                    <li>Consolidated data from various sources and developed a SAS-driven foundational data mart.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Amazon Development Centre, Chennai, IND</h3>
+                <p><em>Senior Analyst, July 2020 - April 2022</em></p>
+                <ul>
+                    <li>Led a team project focused on ETL, achieving 100% data accuracy in the first month.</li>
+                    <li>Analyzed user psychology data to enhance the Kindle device experience, increasing user engagement by 20%.</li>
+                    <li>Implemented automation tools to optimize product flow, saving 40-50 hours of labor per month.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Precision Crushers, U.A.E</h3>
+                <p><em>Operations - Process Improvement, Feb 2019 – Feb 2020</em></p>
+                <ul>
+                    <li>Developed procedures for creating daily snapshots of live transactional datasets for BI pipelines.</li>
+                    <li>Automated complex activities using SSIS packages, reducing manual effort by 80%.</li>
+                    <li>Created JIRA dashboards for project reporting and designed visualizations using Power BI.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Allsec Technologies, Chennai, IND</h3>
+                <p><em>Samsung Technical Support Specialist, June 2018 – Jan 2019</em></p>
+                <ul>
+                    <li>Provided technical consultation on Samsung products and resolved technical issues.</li>
+                    <li>Led a team of customer service representatives to ensure high performance and customer satisfaction.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Humber College, Toronto, ON</h3>
+                <p>Post Graduate Certificate in International Business (GPA: 3.7), Graduation Date: Dec 2023</p>
+                <p>Awards: Dean’s Honors List</p>
+            </div>
+            <div class="education-item">
+                <h3>Anna University, Chennai, IND</h3>
+                <p>Bachelor of Engineering in Civil Engineering (GPA: 3.5), Graduation Date: May 2018</p>
+                <p>Awards: Student’s Elected President of the Department</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-section">
+                <div class="skill-card">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>SAS</li>
+                        <li>Python</li>
+                        <li>R</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Database Languages</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MSSQL</li>
+                        <li>PLSQL</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Visualization Tools</h3>
+                    <ul>
+                        <li>Tableau</li>
+                        <li>DOMO</li>
+                        <li>Power BI</li>
+                        <li>QuickSight</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Cloud Technologies</h3>
+                    <ul>
+                        <li>AWS</li>
+                        <li>Google Cloud Platform</li>
+                    </ul>
+                </divHere's the continuation and completion of the modern, interactive personal webpage for you:
+
+```html
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>MS Excel (Pivot Table, VBA, VLOOKUP, Macros)</li>
+                        <li>SSIS</li>
+                        <li>SSRS</li>
+                        <li>Dbeaver</li>
+                        <li>JIRA</li>
+                        <li>Confluence</li>
+                        <li>MS Visio</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/tharunkumar11/" target="_blank">Tharun Kumar Panneer Selvam</a></p>
+            <p>Email: <a href="mailto:ptharunkumar11@gmail.com">ptharunkumar11@gmail.com</a></p>
+            <p>Phone: 437-333-0351</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tharun Kumar Panneer Selvam</p>
+    </footer>
+</body>
+</html>
